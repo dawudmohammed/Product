@@ -20,6 +20,7 @@ public class Main {
           String expiryDate = "2017-01-01";
         products.stream().filter(i -> LocalDate.parse(i.getDateMfd()).getYear()<(LocalDate.parse(expiryDate)).getYear()).toList()
                         .forEach(System.out::println);
+        //
 
     }
 }
