@@ -30,7 +30,7 @@ public class Main {
             }
         }
 
-        //calling createCsvDate
+        //calling createCsvData
 
         List<String[]> csvData = createCsvData(productList);
         try (CSVWriter writer = new CSVWriter(new FileWriter("Book1.csv"))) {
