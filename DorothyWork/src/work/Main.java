@@ -40,6 +40,9 @@ public class Main {
         }
     }
 
+    public void check(){
+        System.out.println("hello checking my branch");
+    }
 
     private static List<String[]> createCsvData(List<Product> products) {
          List<String[]> list = new ArrayList<>();
